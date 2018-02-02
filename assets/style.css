@@ -1,0 +1,69 @@
+
+
+* {
+    box-sizing: border-box;
+    background-image: url("/Users/jenn/code/week1hmwk/Basic-Portfolio/images/spiration light/spiration-light.png");
+    background-color: #cccccc;
+}
+
+body {
+    width: 960px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 0;
+ }
+
+ #myname {
+     float: left;
+ }
+ 
+ header {
+     background-color: #ffffff;
+     border-color: #cccccc;
+
+ }
+
+ ul#menu li {
+        display:inline;
+      
+    }
+ 
+
+ h1 {
+     color: #4aaaa5;
+     font-size: 40px;
+ }
+
+.mainbox {
+    width: 650px;
+    margin: 10px auto;
+    background: #cccccc;
+    border-color: #dddddd;
+    float: left;
+   
+}
+
+.connectHeader {
+        width: 270px;
+        background-color: #ffffff;
+        border: #dddddd;
+        padding: 0 auto;
+        margin: 0 auto;
+        float: right;
+    }
+
+
+
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size:25px;
+}
+
+
