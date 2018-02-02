@@ -3,8 +3,9 @@
 * {
     box-sizing: border-box;
     background-image: url("/Users/jenn/code/week1hmwk/Basic-Portfolio/images/spiration light/spiration-light.png");
-    background-color: #cccccc;
+    background: #cccccc;
 }
+
 
 body {
     width: 960px;
@@ -16,21 +17,25 @@ body {
     padding: 0;
  }
 
+ header {
+    padding: 30px;
+    float: left;
+    background: #cccccc;
+    width: 100%;
+    margin: 10px 0;
+    
+ }
+
  #myname {
      float: left;
  }
- 
- header {
-     background-color: #ffffff;
-     border-color: #cccccc;
 
+ #about,
+ #portfolio,
+ #connect 
+  {
+     float: right;
  }
-
- ul#menu li {
-        display:inline;
-      
-    }
- 
 
  h1 {
      color: #4aaaa5;
@@ -39,31 +44,39 @@ body {
 
 .mainbox {
     width: 650px;
+    height: auto;
     margin: 10px auto;
     background: #cccccc;
     border-color: #dddddd;
     float: left;
+    
    
 }
 
-.connectHeader {
-        width: 270px;
-        background-color: #ffffff;
+
+
+.self {
+    float: left;
+}
+
+aside {
+       
+       
+        background: #ffffff;
         border: #dddddd;
         padding: 0 auto;
         margin: 0 auto;
         float: right;
+        display: inline;
+        width: 270px;
     }
 
 
 
-
-h2 {
-    font-size: 30px;
+footer {
+    clear:both;
+    background: #666666;
+    margin-top: 10px;
+    /* add the sticky margin at the end */
 }
-
-h3 {
-    font-size:25px;
-}
-
 
