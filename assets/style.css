@@ -68,6 +68,32 @@ body {
     
    
 }
+.form-item {
+    padding-top: 10px;
+
+}
+.form-item > label {
+    color: #777777;
+}
+.fn {
+    width: 100%;
+    line-height: 25px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: left;
+    border: 1px solid #777777;
+}
+
+
+.button {
+    width: 15%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
 
 .sideheader {
     margin-top: 30px;
@@ -102,6 +128,9 @@ body {
 
 }
 
+.contactboxtext > label {
+    padding: 0;
+}
 
 
 
