@@ -2,32 +2,53 @@
 
 * {
     box-sizing: border-box;
-    background-image: url("/Users/jenn/code/week1hmwk/Basic-Portfolio/images/spiration light/spiration-light.png");
-    background: #cccccc;
+    /* background: #cccccc; */
 }
 
 
 body {
-    width: 960px;
+    background-image: url("/Users/jenn/code/week1hmwk/Basic-Portfolio/images/spiration light/spiration-light.png");
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
-    margin: 10px auto;
     padding: 0;
+    height: 100%;
  }
 
  header {
-    padding: 30px;
+    padding-top: 40px;
     float: left;
-    background: #cccccc;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
     width: 100%;
-    margin: 10px 0;
+    margin: 0 auto;
+   
+  
     
+ } 
+
+ .headerinternal {
+     width: 960px;
+     margin: 0 auto;
  }
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -50px;
+
+}
 
  #myname {
      float: left;
+     padding: 30px;
+     font-size: 30px;
+     background-color: #4aaaa5;
+     color: #ffffff;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     
  }
 
  #about,
@@ -37,46 +58,110 @@ body {
      float: right;
  }
 
- h1 {
-     color: #4aaaa5;
-     font-size: 40px;
- }
 
 .mainbox {
     width: 650px;
     height: auto;
-    margin: 10px auto;
-    background: #cccccc;
     border-color: #dddddd;
     float: left;
+    background-color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 30px;
+    border: 1px solid #cccccc;
     
    
 }
+
+.sideheader {
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    float: right;
+
+}
+.sideheader > a{
+    padding: 10px;
+    
+}
+
+.mainboxtitle {
+    text-align: left;
+    font-size: 30px;
+    color:#4aaaa5;
+    /* padding-top: 30px; */
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
 
 
 
 .self {
     float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+
+}
+
+.mainboxbody {
+   margin-top: 20px;
+    
 }
 
 aside {
        
-       
+       padding: 20px;
         background: #ffffff;
-        border: #dddddd;
-        padding: 0 auto;
-        margin: 0 auto;
+        border: 1px solid #cccccc;
+        margin-top: 20px;
         float: right;
-        display: inline;
+        /* display: inline; */
         width: 270px;
     }
 
+.connectHeader {
+    text-align: left;
+    font-size: 20px;
+    color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
 
+.connectImages {
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+.connectImages > a {
+    float: left;
+    margin: 10px;
+ 
+}
+.connectImages > a > img{
+    width: 50px;
+    
+    
+}
 
 footer {
     clear:both;
     background: #666666;
+    border-top: 10px solid #4aaaa5;
     margin-top: 10px;
+    padding: 40px;
+    color: #cccccc;
     /* add the sticky margin at the end */
 }
 
+.container,
+.push {
+    height: 50px;
+}
