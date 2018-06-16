@@ -1,5 +1,6 @@
 # Basic-Portfolio
-my first website as portfolio
+
+Creating a test portfolio while using only HTML and CSS for formatting and content.
 
 basic webpage created with a about, portfolio, and contact tabs.  
 
