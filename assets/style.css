@@ -1,13 +1,10 @@
-
-
 * {
     box-sizing: border-box;
-    /* background: #cccccc; */
 }
 
 
 body {
-    background-image: url("/Users/jenn/code/week1hmwk/Basic-Portfolio/images/spiration light/spiration-light.png");
+    background-image: url("../images/spirationlight/spiration-light.png");
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -17,22 +14,22 @@ body {
     margin: 0;
  }
 
+
  header {
     padding-top: 15px;
     float: left;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
     width: 100%;
-    margin: 0 auto;
-   
-  
-    
+    margin: 0 auto; 
  } 
+
 
  .headerinternal {
      width: 960px;
      margin: 0 auto;
  }
+
 
 .container {
     width: 960px;
@@ -44,7 +41,7 @@ body {
 
  #myname {
      float: left;
-     padding: 30px;
+     padding: 20px;
      font-size: 30px;
      background-color: #4aaaa5;
      color: #ffffff;
@@ -61,10 +58,11 @@ body {
     background-color: #ffffff;
     line-height: 25px;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: left;
     padding: 30px;
     border: 1px solid #cccccc;
+    margin-bottom: 40px;
     
    
 }
@@ -72,9 +70,13 @@ body {
     padding-top: 10px;
 
 }
+
+
 .form-item > label {
     color: #777777;
 }
+
+
 .fn {
     width: 100%;
     line-height: 25px;
@@ -97,7 +99,6 @@ body {
 
 .sideheader {
     margin-top: 30px;
-    /* border: 1px solid red; */
     float: right;
 
 
@@ -121,10 +122,10 @@ body {
     text-align: left;
     font-size: 30px;
     color:#4aaaa5;
-    /* padding-top: 30px; */
     padding-bottom: 20px;
     border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
+
 
 }
 
@@ -180,12 +181,11 @@ body {
 
 aside {
        
-       padding: 20px;
+        padding: 20px;
         background: #ffffff;
         border: 1px solid #cccccc;
-        margin-top: 20px;
+        margin-top: 40px;
         float: right;
-        /* display: inline; */
         width: 270px;
     }
 
@@ -202,7 +202,6 @@ aside {
 
 .connectImages {
     margin-top: 20px;
-    /* text-align: center; */
 }
 
 .connectImages > a {
@@ -216,18 +215,30 @@ aside {
     
 }
 
-footer {
+.footer {
     clear:both;
     background: #666666;
     border-top: 10px solid #4aaaa5;
     margin-top: 10px;
-    padding: 40px;
+    padding: 10px;
     color: #cccccc;
-    
-    /* add the sticky margin at the end */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 
-.push {
+
+
+
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -20px;
+  }
+
+
+  .push {
     height: 50px;
-}
+  }
